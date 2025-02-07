@@ -10,10 +10,10 @@ def connect_database():
     """
     try:
         connection = mysql.connector.connect(
-            host="localhost",  # שם השרת (localhost = השרת המקומי)
-            user="root",  # שם המשתמש
-            password="208110254",  # סיסמה למשתמש root
-            database="tomorrows_academy"  # שם מסד הנתונים שברצונך להתחבר אליו
+            host="",  # שם השרת (localhost = השרת המקומי)
+            user="",  # שם המשתמש
+            password="",  # סיסמה למשתמש root
+            database=""  # שם מסד הנתונים שברצונך להתחבר אליו
         )
 
         return connection
@@ -27,9 +27,9 @@ def create_database():
     """
     try:
         with mysql.connector.connect(
-                host="localhost",  # שם השרת (localhost = השרת המקומי)
-                user="root",  # שם המשתמש
-                password="208110254",  # סיסמה למשתמש root
+                host="",  # שם השרת (localhost = השרת המקומי)
+                user="",  # שם המשתמש
+                password="",  # סיסמה למשתמש root
         ) as connection:
             with connection.cursor() as cursor:
                 # בדיקה אם מסד הנתונים כבר קיים
