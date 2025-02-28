@@ -117,7 +117,7 @@ Once logged in, you can create users, manage courses, and generate reports.
 ---
 ✅ Developed for **Tomorrow's Academy Final Project**
 
-## Author
+## Authors
 **Bar Cohen**
 
 **Tomer Pinto**
