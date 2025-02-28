@@ -119,6 +119,7 @@ Once logged in, you can create users, manage courses, and generate reports.
 
 ## Author
 **Bar Cohen**
+**Tomer Pinto**
 
 ## License
 This project is licensed under the **Apache License 2.0**.
